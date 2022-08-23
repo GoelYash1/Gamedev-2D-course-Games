@@ -1,0 +1,696 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa60bade1b8fe09428191e3ab4fca1e9, type: 3}
+  m_Name: Questions
+  m_EditorClassIdentifier: 
+  categories:
+  - categoryName: Harry Potter
+    categoryQuestion:
+    - question: Harry Potter was born in the year _____ ?
+      answers:
+      - 1991
+      - 1980
+      - 1988
+      - 1985
+      correctAnswerIndex: 1
+    - question: "Who taught Harry the basics of Quidditch?\t"
+      answers:
+      - Madaam Hooch
+      - Oliver Wood
+      - Minerva McGonagall
+      - Ron Weasley
+      correctAnswerIndex: 1
+    - question: In which Gringotts vault did Hagrid take Harry in the Philospher
+        Stone on some Hogwarts business?
+      answers:
+      - 713
+      - 659
+      - 687
+      - 756
+      correctAnswerIndex: 0
+    - question: What was Severus Snape teaching Harry in secret in the book "The
+        order of the Phoenix"?
+      answers:
+      - Legilimency
+      - Arthimancy
+      - Occlumency
+      - Xylomancy
+      correctAnswerIndex: 2
+    - question: "What was Snape\u2019s Patronus?"
+      answers:
+      - Stag
+      - Fox
+      - Otter
+      - Doe
+      correctAnswerIndex: 3
+    - question: Who kills Professor Dumbledore?
+      answers:
+      - Severus Snape
+      - Fenrir Greyback
+      - Bellatrix Lestrange
+      - Draco Malfoy
+      correctAnswerIndex: 0
+    - question: According to the Sorting Hat what qualities does Ravenclaw possess?
+      answers:
+      - Daring and Nerve
+      - Patience and Loyalty
+      - Cunning and Deceit
+      - Wit and Learning
+      correctAnswerIndex: 3
+    - question: What does Lavender Brown call Ron?
+      answers:
+      - Snuggles
+      - Won-Won
+      - Sweetcheeks
+      - Big Red
+      correctAnswerIndex: 1
+    - question: What type of dragon did Harry face in his first Tri-Wizard Tournament
+        task?
+      answers:
+      - A Hungarian Horntail
+      - A Swedish Short-Snout
+      - A Common Welsh Green
+      - A Chinese Fireball
+      correctAnswerIndex: 0
+    - question: What makes a person feel better after seeing a Dementor?
+      answers:
+      - Cup Cake
+      - Treacle Pudding
+      - Candy
+      - Chocolate
+      correctAnswerIndex: 3
+    - question: When Dumbledore and Harry first visit Horace Slughorn, what is he
+        disguised as?
+      answers:
+      - A Book
+      - A Lampshade
+      - An Armchair
+      - A fan
+      correctAnswerIndex: 2
+    - question: Other than Harry, What other young witch/wizard could have been the
+        object of the prophecy regarding Voldemort's downfall?
+      answers:
+      - Dean Thomas
+      - Collin Creevey
+      - Neville Longbottom
+      - Luna Lovegood
+      correctAnswerIndex: 2
+    - question: Which character became a professional Quidditch player?
+      answers:
+      - Harry
+      - Ginny
+      - Ron
+      - Hermione
+      correctAnswerIndex: 1
+    - question: Which color in the Remembrall glows whenever you forget something?
+      answers:
+      - Green
+      - Red
+      - Black
+      - Purple
+      correctAnswerIndex: 1
+    - question: When reading Quidditch Through the Ages Harry discovered that you
+        could commit a foul in how many different ways?
+      answers:
+      - 1256
+      - 250
+      - 56
+      - 700
+      correctAnswerIndex: 3
+    - question: How long was Scabbers in the Weasley family?
+      answers:
+      - 8 Years
+      - 12 Years
+      - 5 Years
+      - 15 Years
+      correctAnswerIndex: 1
+    - question: "When Harry Potter was brought to Privet Drive by one of Dumbledore\u2019s
+        most dependable companions, at what point in the flight did he fall asleep?"
+      answers:
+      - Two miles out of Godric's Hollow
+      - Over Ottery St Catchpole
+      - Over Durham
+      - Over Bristol
+      correctAnswerIndex: 3
+    - question: What creature did Barty Crouch Jr, posing as Professor Moody, turn
+        Draco Malfoy into?
+      answers:
+      - A ferret
+      - A vole
+      - A rat
+      - A weasel
+      correctAnswerIndex: 0
+    - question: What incantation would banish a Boggart?
+      answers:
+      - Expecto Patronum
+      - Repulso
+      - Riddikulus
+      - Deletrius
+      correctAnswerIndex: 2
+    - question: When Mr and Mrs Mason came round for dinner at the Dursleys, what
+        pudding did Petunia make?
+      answers:
+      - Sticky toffee pudding
+      - Eton mess
+      - Whipped cream and sugared violets
+      - Trifle
+      correctAnswerIndex: 2
+    - question: On the giant wizard chessboard through the trapdoor, what chess piece
+        did Hermione play as?
+      answers:
+      - Queen
+      - Pawn
+      - Castle
+      - Bishop
+      correctAnswerIndex: 2
+    - question: "What did Hermione compare Ron\u2019s emotional range to?"
+      answers:
+      - A mug
+      - A teaspoon
+      - A fork
+      - A plate
+      correctAnswerIndex: 1
+    - question: When Malfoy called Hermione a Mudblood, Ron defended her and his
+        wand backfired, what did he end up vomiting?
+      answers:
+      - Worms
+      - Spiders
+      - Snails
+      - Slugs
+      correctAnswerIndex: 3
+    - question: "What kind of animal was Voldemort drinking from in the Forbidden
+        Forest in Philosopher\u2019s Stone?"
+      answers:
+      - A centaur
+      - A unicorn
+      - A basilisk
+      - Acromantula
+      correctAnswerIndex: 1
+    - question: Which of the following Hogwarts students cannot see Thestrals?
+      answers:
+      - Harry Potter
+      - Lavender Brown
+      - Neville Longbotton
+      - Luna Lovegood
+      correctAnswerIndex: 1
+    - question: "Hermione accidentally turned herself into a cat in Chamber of Secrets
+        \u2013 but who did she intend to transform into?"
+      answers:
+      - Daphne Greengrass
+      - Millicent Bulstrode
+      - Pansy Parkinson
+      - Tracey Davis
+      correctAnswerIndex: 1
+    - question: Who among these was not a part of Dumbledore's Army?
+      answers:
+      - Cormac McLaggen
+      - Lavender Brown
+      - Parvati Patil
+      - Zacharias Smith
+      correctAnswerIndex: 0
+    - question: Which creatures pull the carriages that take students from the Hogwarts
+        Express to the Castle?
+      answers:
+      - Hippogriffs
+      - Centaurs
+      - Thestrals
+      - Manticores
+      correctAnswerIndex: 2
+    - question: How many staircases does Hogwarts have?
+      answers:
+      - 163
+      - 142
+      - 112
+      - 150
+      correctAnswerIndex: 1
+    - question: Hermione avoided the basilisk's deadly gaze by looking through/via
+        ______?
+      answers:
+      - Mirror
+      - Water
+      - Camera
+      - Spoon
+      correctAnswerIndex: 0
+  - categoryName: Doctor Who
+    categoryQuestion:
+    - question: Which actor played the ninth Doctor?
+      answers:
+      - Paul McGann
+      - David Tennant
+      - Christopher Eccleston
+      - John Hurt
+      correctAnswerIndex: 2
+    - question: Doctor Who used to have a robotic dog. What was its name?
+      answers:
+      - K9
+      - K5
+      - D10
+      - D3
+      correctAnswerIndex: 0
+    - question: How many hearts does the Doctor have?
+      answers:
+      - 4
+      - 3
+      - 1
+      - 2
+      correctAnswerIndex: 3
+    - question: What two-word phrase occurs repeatedly throughout the episodes of
+        Series 1?
+      answers:
+      - Bad Wolf
+      - Great Whale
+      - Big Elephant
+      - Good Dinosaur
+      correctAnswerIndex: 0
+    - question: With what weapon does the Doctor fight Robin Hood on a narrow bridge
+        across a stream in the episode 'Robot of Sherwood'?
+      answers:
+      - Sword
+      - Screwdriver
+      - Spoon
+      - Fork
+      correctAnswerIndex: 2
+    - question: Which diamond plays a crucial part in the Series 2 episode 'Tooth
+        and Claw'?
+      answers:
+      - Blue Hope
+      - Orlov
+      - Centenary
+      - Koh-I-Noor
+      correctAnswerIndex: 3
+    - question: What were the last words spoken by the Tenth Doctor before he regenerated?
+      answers:
+      - I don't feel so good
+      - I don't waana go
+      - I am happy for you
+      - I hope I was a good doctor
+      correctAnswerIndex: 1
+    - question: Which of these companions is the only one to leave the Tardis willingly
+        after traveling with the Doctor?
+      answers:
+      - Rose Tyler
+      - Donna Noble
+      - Martha Jones
+      - Amy Pond
+      correctAnswerIndex: 2
+    - question: "During Doctor Who Season 5 Episode 7, \u201CThe Unicorn and the
+        Wasp,\u201D which author do the Doctor and Donna Noble run into?"
+      answers:
+      - 'Jane Austen '
+      - Charles Dickens
+      - Enid Blyton
+      - Agatha Christie
+      correctAnswerIndex: 3
+    - question: What is the first line spoken by the Ninth Doctor?
+      answers:
+      - '"Run"'
+      - '"I am the Doctor"'
+      - '"Fantastic"'
+      - '"Nice to meet you, Bye"'
+      correctAnswerIndex: 0
+    - question: "Who is Face of Boe?\t"
+      answers:
+      - Danny Smith
+      - Mickey
+      - Rory Williams
+      - Captain Jack Harkness
+      correctAnswerIndex: 3
+    - question: Who is the Impossible Girl?
+      answers:
+      - Clara Oswald
+      - Rose Tyler
+      - Martha Jones
+      - Amy Pond
+      correctAnswerIndex: 0
+    - question: The Shadow Proclomation are intergalactic what?
+      answers:
+      - Police
+      - 'Pirates '
+      - Soldiers
+      - Priests
+      correctAnswerIndex: 0
+    - question: What do you do when the species "Vashta Nerada" attacks you?
+      answers:
+      - 'Don''t Blink '
+      - Run
+      - Attack the Back of the head
+      - Attack the eyeball
+      correctAnswerIndex: 1
+    - question: When the Doctor first meets little Amelia outside after he crashes
+        the TARDIS, what food does he ask her for?
+      answers:
+      - A pie
+      - An orange
+      - An apple
+      - 'Custard '
+      correctAnswerIndex: 2
+    - question: In which episode does The Doctor 'grant wishes' for eternal life?
+      answers:
+      - Human Nature
+      - The Family of Blood
+      - Utopia
+      - Empty Child
+      correctAnswerIndex: 1
+    - question: During a chess match in "Nightmare in Silver", Mr. Clever, a Cyber-Planner
+        who takes over part of Eleven's mind, spouts which two catchphrases of Nine
+        and Ten's?
+      answers:
+      - '"Fantastic" and "Brilliant"'
+      - '"Excellent" and "Geronimo"'
+      - '"Wonderful" and "I''m Sorry"'
+      - '"Fantastic"  and "Allons-y"'
+      correctAnswerIndex: 3
+    - question: The Eleventh Doctor's First Line Was ________
+      answers:
+      - '"Legs, I''ve Still Got Legs."'
+      - '"Hair, still not ginger"'
+      - '"Kidneys, I don''t like the colour"'
+      - '"Geronimo"'
+      correctAnswerIndex: 0
+    - question: How long is a night on Darillium?
+      answers:
+      - 24 hours
+      - 24 days
+      - 24 months
+      - 24 years
+      correctAnswerIndex: 3
+    - question: Which Shakespeare play did the Doctor and Martha Jones attend in
+        "The Shakespeare Code"?
+      answers:
+      - Macbeth
+      - Romeo and Juliet
+      - Love's Labour's Lost
+      - Hamlet
+      correctAnswerIndex: 2
+    - question: Which food is the Doctor disappointed not to find on a restaurant
+        menu in Deep Breath?
+      answers:
+      - Sushi
+      - Custard
+      - Sausages
+      - Pizza
+      correctAnswerIndex: 2
+    - question: Which volcano does the Doctor and his companion watch explode in
+        season 4?
+      answers:
+      - Mount Etna
+      - Mount Vesuvius
+      - Mount Saint Helens
+      - Kilauea
+      correctAnswerIndex: 1
+    - question: What episode did River Song first appear in?
+      answers:
+      - Silence in the Library
+      - Forest of the Dead
+      - The Time of the Angels
+      - The Impossible Astronaut
+      correctAnswerIndex: 0
+    - question: How many minutes does the Doctor tell young Amelia he needs to go
+        into the future to stabilize the TARDIS?
+      answers:
+      - 30
+      - 2
+      - 10
+      - 5
+      correctAnswerIndex: 3
+    - question: Which creatures said this? "The circle must be broken!"
+      answers:
+      - Daleks
+      - Ood
+      - Cyberman
+      - Autons
+      correctAnswerIndex: 1
+    - question: What is/are River's last word(s) before her death in "Forest of the
+        Dead"?
+      answers:
+      - '"Shhh, Honey"'
+      - '"Spoilers"'
+      - '"Now, I know"'
+      - '"See you on the other side"'
+      correctAnswerIndex: 1
+    - question: Which of these names was a Cult of Skaro Dalek name?
+      answers:
+      - Bob
+      - Jeremy
+      - Steve
+      - Caan
+      correctAnswerIndex: 3
+    - question: In which episode does the Doctor begin to repeat other passengers?
+      answers:
+      - Blink
+      - Midnight
+      - Turn Left
+      - The Girl Who Waited
+      correctAnswerIndex: 1
+    - question: Which of the following were made a clone by the Sontarans?
+      answers:
+      - Mickey Smith
+      - Rory Williams
+      - Martha Jones
+      - Rose Tyler
+      correctAnswerIndex: 2
+    - question: What planet is said to be the place the Doctor will die?
+      answers:
+      - Gallifrey
+      - Tranzalore
+      - Earth
+      - Diadem
+      correctAnswerIndex: 1
+  - categoryName: MCU
+    categoryQuestion:
+    - question: Whose example did Korg give to Thor when he was going to fight the
+        champion in Ragnarok?
+      answers:
+      - Dig
+      - Doug
+      - Meek
+      - Darryl
+      correctAnswerIndex: 1
+    - question: Which Infinity Stone did Thanos get first?
+      answers:
+      - Power
+      - Space
+      - 'Time '
+      - Reality
+      correctAnswerIndex: 0
+    - question: What were the last words of Yinsen in the movie "Iron Man"?
+      answers:
+      - Use your time well
+      - You can be better
+      - Don't waste it. Don't waste your life.
+      - I forgive you
+      correctAnswerIndex: 2
+    - question: About which city do Hawkeye and Black Widow often reminisce?
+      answers:
+      - Prague
+      - Budapest
+      - Istanbul
+      - Sokovia
+      correctAnswerIndex: 1
+    - question: Which famous movie series did Spiderman mention in Civil War airport
+        fight?
+      answers:
+      - Fast and the Furious
+      - Pirates of the Caribbean
+      - Star Wars
+      - Star Trek
+      correctAnswerIndex: 2
+    - question: Which antagonist said, "Reality is often disappointing"?
+      answers:
+      - Thanos
+      - Ultron
+      - Loki
+      - Hela
+      correctAnswerIndex: 0
+    - question: In 'Thor Ragnarok', what was the Scrapper Number of Valkyrie?
+      answers:
+      - 105
+      - 79
+      - 180
+      - 142
+      correctAnswerIndex: 3
+    - question: "Whose power \u201Cexceeds that of the Sorcerer Supreme?\u201D"
+      answers:
+      - Hulk
+      - Thor
+      - Scarlet Witch
+      - Vision
+      correctAnswerIndex: 2
+    - question: On what planet was the Soul Stone in Infinity War?
+      answers:
+      - Nidavellir
+      - Titan
+      - Knowhere
+      - Vormir
+      correctAnswerIndex: 3
+    - question: Pepper Potts is allergic to what?
+      answers:
+      - Strawberries
+      - Blueberries
+      - Peanuts
+      - Oranges
+      correctAnswerIndex: 0
+    - question: "Natasha Romanoff tells Loki she\u2019s got what in her ledger?"
+      answers:
+      - Red
+      - Dirt
+      - Snow
+      - Sand
+      correctAnswerIndex: 0
+    - question: 'Thor played what video game in Avengers: Endgame?'
+      answers:
+      - Minecraft
+      - Fortnite
+      - PubG
+      - CS Go
+      correctAnswerIndex: 1
+    - question: Who is the firstborn child of Odin?
+      answers:
+      - Thor
+      - Loki
+      - Sif
+      - Hela
+      correctAnswerIndex: 3
+    - question: "Who said, \u201CWhat is grief, if not love persevering?\u201D"
+      answers:
+      - Captain America
+      - Vision
+      - Iron Man
+      - Hawkeye
+      correctAnswerIndex: 1
+    - question: Where does Peggy tell Steve she wants to meet him for a dance, before
+        he plunges into the ice?
+      answers:
+      - The Cotton Club
+      - The Capablanca
+      - The Stork Club
+      - El Morocco
+      correctAnswerIndex: 2
+    - question: What is the name of the little boy Tony befriends while stranded?
+      answers:
+      - Harry
+      - Henry
+      - Holden
+      - Harley
+      correctAnswerIndex: 3
+    - question: What were the three items Rocket claims he needs in order to escape
+        the prison?
+      answers:
+      - security card, fork and ankle monitor
+      - security band, battery and prosthetic leg
+      - binoculars, detonator and prosthetic leg
+      - 'knife, cable wires and peter''s mixtape '
+      correctAnswerIndex: 1
+    - question: What type of doctor is Stephen Strange?
+      answers:
+      - Neurosurgeon
+      - Cardiothoracic Surgeon
+      - Trauma Surgeon
+      - Plastic Surgeon
+      correctAnswerIndex: 0
+    - question: What elective class did Thor take on Asgard?
+      answers:
+      - Learning to fly spaceships
+      - Learning to speak groot
+      - How to take care of rabbits
+      - Hammer making
+      correctAnswerIndex: 1
+    - question: Scott hid an old Ant-Man suit underneath a trophy. What did the trophy
+        say?
+      answers:
+      - World's Greatest Dad
+      - World's Greatest Superhero
+      - World's Greatest Aunt
+      - World's Greatest Grandma
+      correctAnswerIndex: 3
+    - question: 'What does MJ say when her black dahlia necklace breaks? '
+      answers:
+      - '"I actually like it better broken"'
+      - '"Can you get me a new one"'
+      - '"I don''t care if its broken"'
+      - '"Sorry Peter"'
+      correctAnswerIndex: 0
+    - question: What is the first line of "Agatha All Along"?
+      answers:
+      - '"Who''s been messin'' up everything?"'
+      - '"Who''s been pulling every evil string?"'
+      - '"It''s been Agatha All Along"'
+      - '"Who''s been controllin'' this whole thing?"'
+      correctAnswerIndex: 0
+    - question: How many dog tags is Bucky seen wearing throughout the show "Falcon
+        and the Winter Soldier"?
+      answers:
+      - 1
+      - 3
+      - 2
+      - 5
+      correctAnswerIndex: 2
+    - question: Who speaks the words "Death is what gives life meaning"?
+      answers:
+      - Xu Wenwu
+      - Killmonger
+      - Thanos
+      - The Ancient One
+      correctAnswerIndex: 3
+    - question: How many PhDs does Bruce Banner have?
+      answers:
+      - 12
+      - 4
+      - 7
+      - 15
+      correctAnswerIndex: 2
+    - question: Moon Knight is the avatar of which Egyptian god?
+      answers:
+      - Khonshu
+      - Ammit
+      - Amon
+      - Isis
+      correctAnswerIndex: 0
+    - question: In WandaVision, what are Wanda and Vision's stage names for their
+        magic act?
+      answers:
+      - Razzle & Dazzle
+      - Master of Illusion & Queen of Deception
+      - Illusion & Glamor
+      - Victor Shade & Scarlet Witch
+      correctAnswerIndex: 2
+    - question: What is the name of the super soldier project that Captain America
+        took part in?
+      answers:
+      - Project Awakening
+      - Project Stronghold
+      - Project Genesis
+      - Project Rebirth
+      correctAnswerIndex: 3
+    - question: What month does "Dr. Strange" get into his infamous car wreck?
+      answers:
+      - December
+      - 'October '
+      - January
+      - February
+      correctAnswerIndex: 3
+    - question: In "Civil War", Tony tells the whole team about a kid who died in
+        Sokovia. What was his name?
+      answers:
+      - Charles Spencer
+      - Charles Smith
+      - Charles Spooner
+      - Charles Downey
+      correctAnswerIndex: 0
+    - question: In the post credit scene of "Far From Home", what's Nick Fury looking
+        for?
+      answers:
+      - His Shoes
+      - His Watch
+      - His Phone
+      - His Gun
+      correctAnswerIndex: 0
