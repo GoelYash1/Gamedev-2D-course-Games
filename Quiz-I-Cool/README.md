@@ -1,4 +1,7 @@
 # Quiz-I-Cool
+Play For Yourself:
+<a href="https://sharemygame.com/@YashG/quiz-i-cool" target="_blank">here</a>
+
 A Unity quiz game which test your knowledge on wizards, Super heroes and Doctors
 
 This game was made using the udemy 2d unity course by *gamedev.tv*
