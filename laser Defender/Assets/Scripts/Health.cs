@@ -6,11 +6,15 @@ public class Health : MonoBehaviour
 {
     CameraShake cameraShake;
     AudioPlayer audioPlayer;
+    [SerializeField] bool isPlayer;
     [SerializeField] bool applyCameraShake;
     [SerializeField] int health = 50;
+    [SerializeField] int score = 50;
     [SerializeField] ParticleSystem hitEffect;
+    ScoreKeeper scoreKeeper;
     private void Awake()
     {
+        scoreKeeper = FindObjectOfType<ScoreKeeper>();
         audioPlayer = FindObjectOfType<AudioPlayer>();
         cameraShake = Camera.main.GetComponent<CameraShake>();
     }
@@ -31,8 +35,7 @@ public class Health : MonoBehaviour
         health -= damageTaken;
         if (health<=0)
         {
-            audioPlayer.PlayExplosionClip();
-            Destroy(gameObject);
+            Die();
         }
     }
     void PlayHitEffect()
@@ -49,5 +52,18 @@ public class Health : MonoBehaviour
         {
             cameraShake.Play();
         }
+    }
+    void Die()
+    {
+        audioPlayer.PlayExplosionClip();
+        if(!isPlayer)
+        {
+            scoreKeeper.ModifyScore(score);
+        }
+        Destroy(gameObject);
+    }
+    public int GetHealth()
+    {
+        return health;
     }
 }
