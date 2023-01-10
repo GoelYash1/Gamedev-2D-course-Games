@@ -25,7 +25,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 200}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 14861
+  controlID: 16546
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 14851
+  controlID: 16512
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 14852
+  controlID: 16513
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -470,9 +470,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -1.4290967, y: -0.43414384, z: -0.08951659}
+    m_Target: {x: 0, y: 0, z: 0}
     speed: 2
-    m_Value: {x: -1.4290967, y: -0.43414384, z: -0.08951659}
+    m_Value: {x: 0, y: 0, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -523,9 +523,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10.48903
+    m_Target: 10
     speed: 2
-    m_Value: 10.48903
+    m_Value: 10
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -617,13 +617,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Yash Goel.000\Desktop\Games with Yash\2D Games\Gamedev-2D-course-Games\laser
     Defender
@@ -631,9 +631,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 60640000
-    m_LastClickedID: 25696
-    m_ExpandedIDs: 0000000030640000326400003464000000ca9a3b
+    m_SelectedIDs: 62640000
+    m_LastClickedID: 25698
+    m_ExpandedIDs: 000000003064000032640000346400000e82000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -686,8 +686,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 6e640000
-    m_LastClickedInstanceID: 25710
+    m_SelectedInstanceIDs: a842feff
+    m_LastClickedInstanceID: -114008
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: b869ffff
     m_RenameOverlay:
@@ -776,7 +776,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: e2befeff7cc0feff22dafeffbadffeff28e1feff66e9feff00eafeff0e21ffff5862ffff3a63ffffbc68ffffc869ffffac70ffff3a71ffffe672ffff1487ffff76deffffb0ecffffe8f8ffff24fbffff1a840000448400000a9400002c9400006a980000789800008a98000094980000589b00007aaa00009caa000022ad000056b1000064b100006eb10000
+      m_ExpandedIDs: 7e40feffb042feff4a75feff8c9bfeff509dfeffe2befeff7cc0feff22dafeffbadffeff28e1feff66e9feff00eafeff0e21ffff5862ffff3a63ffffbc68ffffc869ffffac70ffff3a71ffffe672ffff1487ffff76deffffb0ecffffe8f8ffff24fbffff1a840000448400000a9400002c9400006a980000789800008a98000094980000589b00007aaa00009caa000022ad000056b1000064b100006eb100001eb70000c6b70000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -860,7 +860,7 @@ MonoBehaviour:
     m_CachedPref: -268
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
-  m_LastInspectedObjectInstanceID: 25710
+  m_LastInspectedObjectInstanceID: -114008
   m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0

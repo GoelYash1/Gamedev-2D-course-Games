@@ -8,8 +8,17 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
+    ScoreKeeper scoreKeeper;
+    private void Awake()
+    {
+        scoreKeeper = FindObjectOfType<ScoreKeeper>();
+    }
     public void LoadGame(float delay)
     {
+        if(scoreKeeper!=null)
+        {
+            scoreKeeper.ResetScore();
+        }
         StartCoroutine(WaitAndLoad("GameScreen",delay));
     }
     public void LoadMainMenu(float delay)

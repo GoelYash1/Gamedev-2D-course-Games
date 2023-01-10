@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3233708590150728726}
   - component: {fileID: 732917236045365980}
   m_Layer: 7
-  m_Name: Enemy
+  m_Name: Big Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 6dc5aae88622676419d720e6ad9dc5db, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a04ef4230771bcf478221712369c8e1b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -166,8 +166,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayer: 0
   applyCameraShake: 0
-  health: 30
-  score: 30
+  health: 40
+  score: 50
   hitEffect: {fileID: 7489097364375153799, guid: 1331be49fec744d4dacd4390dd76b1cd, type: 3}
   endScreenLoadDelay: 2
 --- !u!114 &732917236045365980
